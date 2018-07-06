@@ -9,4 +9,4 @@ def my_each(data)
   data
 end
 
-my_each(data) {|i| puts i}
+#my_each(data) {|i| puts i}
