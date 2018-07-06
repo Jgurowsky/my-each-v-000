@@ -1,4 +1,4 @@
-#data = [1, 2, 3, 4, 5]
+
 
 def my_each(array)
   i = 0
@@ -8,5 +8,3 @@ def my_each(array)
     end
     array
 end
-
-#my_each(data) {|i| puts i}
