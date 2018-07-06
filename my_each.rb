@@ -1,12 +1,12 @@
 #data = [1, 2, 3, 4, 5]
 
-def my_each(data)
+def my_each(array)
   i = 0
-  while i < data.length
-    yield(data[i])
+  while i < array.length
+    yield(array[i])
     i += 1
   end
-  data
+  array
 end
 
 #my_each(data) {|i| puts i}
