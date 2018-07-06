@@ -4,5 +4,4 @@ def my_each(data)
  yield
 end
 
-my_each(data) do {|i| puts i}
-end
+my_each(data) {|i| puts i}
